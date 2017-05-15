@@ -1,0 +1,35 @@
+{
+  "name": "electron-start",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=dev ./node_modules/.bin/electron -r babel-register ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.49.0",
+    "foundation-sites": "^6.3.1",
+    "react-codemirror": "^1.0.0",
+    "react-foundation": "^0.7.0",
+    "react-json-tree": "^0.10.9",
+    "react-modal": "^1.7.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.23.0",
+    "babel-register": "^6.24.0",
+    "css-loader": "^0.27.3",
+    "electron": "^1.6.2",
+    "file-loader": "^0.11.1",
+    "postcss-loader": "^1.3.3",
+    "react-hot-loader": "^1.3.1",
+    "style-loader": "^0.14.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
