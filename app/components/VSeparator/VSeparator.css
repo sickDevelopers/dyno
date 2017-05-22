@@ -1,0 +1,7 @@
+.vseparator {
+	width: 3px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background: #fafafa;
+	cursor: col-resize;
+}

@@ -13,13 +13,6 @@ body {
 	padding: 0;
 }
 
-.app .v-separator {
-	width: 3px;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	background: #fafafa;
-	cursor: col-resize;
-}
 
 .content {
 	flex: 1;

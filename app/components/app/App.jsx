@@ -9,6 +9,7 @@ import AppHeader from '../header/AppHeader.jsx';
 import QueryBuilder from '../QueryBuilder/QueryBuilder.jsx';
 import QueryResults from '../QueryResults/QueryResults.jsx';
 import OperationButtons from '../OperationButtons/OperationButtons.jsx';
+import VSeparator from '../VSeparator/VSeparator.jsx';
 
 import QueryFactory from '../../helpers/QueryFactory.js';
 
@@ -106,7 +107,7 @@ export default class App extends React.Component {
 						<div className="queryBuilderContainer">
 							<QueryBuilder queryChanged={this.onQueryChange}></QueryBuilder>
 						</div>	
-						<div className="v-separator"></div>
+						<VSeparator></VSeparator>
 						<div className="queryResultsContainer">
 							<QueryResults result={this.state.result}></QueryResults>
 						</div>
